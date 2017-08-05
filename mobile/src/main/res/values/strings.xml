@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Manhãs</string>
+    <string name="starting">A iniciar!</string>
+    <string name="no_connection">Sem ligação :\'(</string>
+    <string name="sunday">Dom</string>
+    <string name="monday">Seg</string>
+    <string name="tuesday">Ter</string>
+    <string name="wednesday">Qua</string>
+    <string name="thursday">Qui</string>
+    <string name="friday">Sex</string>
+    <string name="saturday">Sáb</string>
+
+
+    <string-array name="title">
+        <item>Bom dia :)</item>
+        <item>Que sonooooooo</item>
+        <item>Toca a acordar!</item>
+        <item>Só mais cinco minutos..</item>
+        <item>De manhã é que é bom!</item>
+    </string-array>
+
+    <string-array name="weekend">
+        <item>Por hoje já chega,\nbom fim de semana!</item>
+        <item>Vemo-nos na segunda?</item>
+        <item>Na segunda há mais!</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="show_name_transition">show_name_transition</string>
+    <string name="transition_logo">transitionLogo</string>
+    <string name="transition_show">transitionShow</string>
+    <string name="transition_radio">transitionRadio</string>
+
+</resources>

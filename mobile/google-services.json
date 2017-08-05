@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "812130840811",
+    "firebase_url": "https://mornings-45416.firebaseio.com",
+    "project_id": "mornings-45416",
+    "storage_bucket": "mornings-45416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812130840811:android:c9399a274e2868dd",
+        "android_client_info": {
+          "package_name": "pt.castro.mornings2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812130840811-vuto0as05rv56jenamm0jgjh4rl6u7qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.castro.mornings2",
+            "certificate_hash": "34f57370c1adc3f4897bb7106c410ab957d19976"
+          }
+        },
+        {
+          "client_id": "812130840811-gt2qe92mb45nna70adp45oqv1j38i1ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSZiPiNqC7k_wi3AQ1HIIcKRdC_wgrJos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812130840811-gt2qe92mb45nna70adp45oqv1j38i1ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

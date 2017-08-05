@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/parentLayout"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+             android:background="#00000000">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:maxHeight="400dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/background"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#32000000"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/time_indicators"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TimeIndicators"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Seg. 10:00"/>
+
+                    <TextView
+                        style="@style/TimeIndicators"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Ter. 10:00"/>
+
+                    <TextView
+                        style="@style/TimeIndicators"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Qua. 10:00"/>
+
+                    <TextView
+                        style="@style/TimeIndicators"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Qui. 10:00"/>
+
+                    <TextView
+                        style="@style/TimeIndicators"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Sex. 10:00"/>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                app:civ_border_width="0dp"
+                app:civ_fill_color="@android:color/white"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/show_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Mixórdia de temáticas"/>
+
+            <TextView
+                android:id="@+id/radio_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/show_name"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textSize="18sp"
+                tools:text="Rádio Comercial"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radio_name">
+
+                <TextView
+                    android:id="@+id/show_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:padding="8dp"
+                    android:text="Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa Aaaaaaa aaa a a a aaaaa a a a a aaaaaaa "/>
+
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
+
